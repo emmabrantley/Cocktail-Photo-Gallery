@@ -1,0 +1,172 @@
+/* *{
+  padding: 0%;
+} */
+body{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  margin: 0%;
+  margin-right: 0%;
+  font-style: normal;
+  font-family: sans-serif;
+}
+#pic1{
+  background-image: url(Absinthe_Frappe_Cocktail.jpg);
+}
+#pic2{
+  background-image: url(Aviation_Cocktail.jpg);
+}
+#pic3{
+  background-image: url(Blackberry_Mojito.jpg);
+}
+#pic4{
+  background-image: url(Bloody_Mary.jpg);
+}
+#pic5{
+  background-image: url(Bourbon_Aperol_Cocktail.jpg);
+}
+#pic6{
+  background-image: url(Bourbon_Ginger_Cider_Cocktail.jpg);
+}
+#pic7{
+  background-image: url(Brown_Derby_Cocktail.jpg);
+}
+#pic8{
+  background-image: url(Classic_Pink_Lady_Cocktail.jpg);
+}
+#pic9{
+  background-image: url(Clover_Club_Cocktail.jpg);
+}
+#pic10{
+  background-image: url(Dark_and_Stormy_Cocktail.jpg);
+}
+#pic11{
+  background-image: url(Drunken_Monkey_Cocktail.jpg);
+}
+#pic12{
+  background-image: url(Frozen_Rum_Runner_Cocktails.jpg);
+}
+#pic13{
+  background-image: url(Good_and_Evil_Cocktail.png);
+}
+#pic14{
+  background-image: url(Hedgerow_Royale_Cocktail.jpg);
+}
+#pic15{
+  background-image: url(Honey_Thyme_Margarita.jpg);
+}
+#pic16{
+  background-image: url(Irish_Maid.jpg);
+}
+#pic17{
+  background-image: url(Lavender_Lemonade_Prosecco_Cocktail.jpg);
+}
+#pic18{
+  background-image: url(Mai_Tai_Cocktail.jpg);
+}
+#pic19{
+  background-image: url(malibu_Twister_Cocktail.jpg);
+}
+#pic20{
+  background-image: url(Martinez_Cocktail.jpg);
+}
+#pic21{
+  background-image: url(Monastery_Cocktail.jpg);
+}
+#pic22{
+  background-image: url(Painkiller_Cocktail.jpg);
+}
+#pic23{
+  background-image: url(Peachy-Keen-Daiquiri_Cocktail.jpg);
+}
+#pic24{
+  background-image: url(Stags_Leap_Cocktail.jpg);
+}
+#pic25{
+  background-image: url(Strawberry_Cocktail.jpg);
+}
+#pic26{
+  background-image: url(Sweet_Poison_Cocktail.png);
+}
+#pic27{
+  background-image: url(Tequila_Sunrsie_Cocktail.jpeg);
+}
+#pic28{
+  background-image: url(Vuelo_De_La_Selva_Leyenda_Cocktail.jpg);
+}
+#pic29{
+  background-image: url(Yogurt_Cocktail.jpeg);
+}
+#pic30{
+  background-image: url(Winder_Sun_Cocktail.jpg);
+}
+.big_box{
+  display: block-inline;
+}
+.navbar{
+  display: block;
+  position: sticky;
+}
+ul {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  margin: 0;
+}
+li{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  float: right;
+}
+.image{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  width: cover;
+}
+.image{
+	background-image: url(https://www.luxurylifestylemag.co.uk/wp-content/uploads/2018/03/OZONE-WORLDS-HIGHEST-BAR-AT-THE-RITZ-CARLTON-HONG-KONG-1.jpg);
+	min-height: 100%;
+  object-fit: cover;
+}
+.textOverImage{
+  position: relative;
+  /* width: 100vw; */
+  width: calc(100vw / 6 - 18px);
+  height: 15vw;
+  float:left;
+  margin: 7px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.3s;
+}
+.textOverImage:hover{
+  background-size: 110%;
+  padding: 0px;
+}
+.textOverImage:after{
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  white-space: pre-wrap;
+  overflow-x: hidden;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  padding: 5px;
+  opacity: 0;
+  content: attr(data-text);
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+.textOverImage:hover:after{
+  opacity: 1;
+  top: 0;
+  padding: 0px;
+}
